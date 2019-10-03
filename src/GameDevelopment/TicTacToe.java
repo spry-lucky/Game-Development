@@ -196,7 +196,7 @@ public class TicTacToe extends JFrame implements ActionListener{ //To give funct
 		return GameStatus.Tie;
 	}
 
-	private void makeMove(JButton clickedButton) //This function will add 'X' and '0' in buttons
+	private void makeMove(JButton clickedButton) //This function will add 'X' and '0' in buttons according to the user
 	{
 		String btntext=clickedButton.getText();
 		if(btntext.length()>0)
